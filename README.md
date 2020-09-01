@@ -44,3 +44,8 @@ Note pour suivre évolution du stage de recherche
    * Project
      * Utile pour créer une liste de tâches ou de travaux à faire
      * Personnalisation selon les besoins
+
+### Appliquer RMarkdown dans R
+- Ajout des chunks R afin d'inscrire des codes 
+- Permet de laisser des notes sur les codes réalisés
+- Prendre un dossier csv et créer un htlm avec les données du dossier organisées comme désiré. Le dossier html contient du texte et des codes.
