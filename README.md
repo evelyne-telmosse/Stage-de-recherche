@@ -24,4 +24,4 @@ Note pour suivre évolution du stage de recherche
    * Faire un saut de ligne supplémentaire apràs la ligne précédente
    * Si on ne veut pas une grosse coupure : insérer deux espaces apràs la fin de la dernière ligne
  **Apprendre le fonctionnement le GitHub** 
- -  
+ -  Fonctionnement général avec création de Projects, d'Issues et de Pull resquest
