@@ -2,7 +2,7 @@
 Note pour suivre évolution du stage de recherche
 
 ## Plan de travail 
-### Semaine 1
+#### Semaine 1
 - Apprendre langage Markdown
 - Familiariser avec Github
 - Familiariser avec RStudio et RMarkdown
@@ -10,7 +10,8 @@ Note pour suivre évolution du stage de recherche
 - Lire sur les statistiques Bayesian
 - Lire article Jeukendrup 2010 sur absence de relation entre poids et g de CHO à administrer
 
-###### Comprendre le langage Markdown
+## Notes d'évolution
+### Comprendre le langage Markdown
  - Écriture en _italique_ et en **gras**
  - ##### 6 formats de titre
  - Insérer un lien Web dans le texte [comme ceci](https://github.com/evelyne-telmosse/Note-stage/edit/master/README.md) 
@@ -30,5 +31,5 @@ Note pour suivre évolution du stage de recherche
    * Faire un saut de ligne supplémentaire apràs la ligne précédente
    * Si on ne veut pas une grosse coupure : insérer deux espaces apràs la fin de la dernière ligne
  
- **Apprendre le fonctionnement le GitHub** 
+ ### Apprendre le fonctionnement le GitHub
  -  
