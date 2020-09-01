@@ -35,12 +35,12 @@ Note pour suivre évolution du stage de recherche
  - Installation et création d'un compte GitHub
  - Création du dossier Readme.md pour faire plan de travail
  - Familiarisation avec les fonctions de GitHub
-  * Issues: 
-   * Utile pour suivre/proposer des idées, des améliorations, des tâches ou des bugs/erreurs sur GitHub
-   * Possible d'ouvrir un issue sur un code spécifique ou un commentaire en particulier
-   * Les labels permettent d'organiser et de prioriser le travai
-  * Pullrequest:
-   * Utile pour demander aux autres de vérifier un changement fait avant de le soumettre dans la version finale grâce aux branches
-  * Project
-   * Utile pour créer une liste de tâches ou de travaux à faire
-   * Personnalisation selon les besoins
+   * Issues: 
+     * Utile pour suivre/proposer des idées, des améliorations, des tâches ou des bugs/erreurs sur GitHub
+     * Possible d'ouvrir un issue sur un code spécifique ou un commentaire en particulier
+     * Les labels permettent d'organiser et de prioriser le travai
+   * Pullrequest:
+     * Utile pour demander aux autres de vérifier un changement fait avant de le soumettre dans la version finale grâce aux branches
+   * Project
+     * Utile pour créer une liste de tâches ou de travaux à faire
+     * Personnalisation selon les besoins
