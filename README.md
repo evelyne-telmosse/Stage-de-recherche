@@ -6,14 +6,14 @@ Note pour suivre évolution du stage de recherche
 
 **Comprendre le langage Markdown** 
  - Écriture en _italique_ et en **gras**
- - ###### 6 formats de titre
+ - ##### 6 formats de titre
  - Insérer un lien Web dans le texte [comme ceci](https://github.com/evelyne-telmosse/Note-stage/edit/master/README.md) 
- -  Insérer un lien en référence [comme ceci](https://github.com/evelyne-telmosse/Note-stage/edit/master/README.md)
- [comme ceci] : https://github.com/evelyne-telmosse/Note-stage/edit/master/README.md 
+   * Insérer un lien en référence [comme cela](https://github.com/evelyne-telmosse/Note-stage/edit/master/README.md)
+ [comme cela] : https://github.com/evelyne-telmosse/Note-stage/edit/master/README.md 
  - Insérer une image dans le texte : ![Nom de l'image](URL)
- -  Insérer une image en référence : idem à lien en référence
+   * Insérer une image en référence : idem à lien en référence
  - Insérer des citations
- -  >"Citation"
+   * >"Citation"
  - Créer une liste non ordonnée
    * Sujet
    * Sujet
