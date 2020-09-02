@@ -55,6 +55,15 @@ Note pour suivre évolution du stage de recherche
 - Elle peut être utilisées en cas d'hétérpgéniété entre les études ou lorsqu'on combine des études ayant différentes caractéristiques (ex prévention primaire/secondaire)
 - Ne diffère pas beaucoup d'une analyse de sous-groupe, mais comprend des "categorical predictor". Les variables en continue peuvent être utilisées comme indicateurs (ex: IMC). Lorsqu'elles sont opposées, ces variables sont notés "0" et "1" afin de différencier les deux variables (ex: le sexe) et lorsqu'elles représentent des catégories et qu'elles sont ordinales, les valeurs "0" et "1" indiquer la présence ou l'absence d'un effet ou d'une condition (ex: être en sous-poids, normal, surpoids ou obèse).
 
-### Méta-régression multiple
+#### Méta-régression multiple
 - Elle utilise plusieurs prédicteurs (variables) pour prédire (évaluer) la différence dans les effets obtenus
 - _Interactions_ : Signifie que la relation entre une predictor variable (x1) et la grandeur de l'effet change selon les différentes valeurs d'une predictor variable (x2)
+
+### Statistique bayesienne
+##### Les bases
+- Utilsées avec des petits échantillons et ne nécessite pas nécessairement d'hypothèse, ce qui rend utile l'exploration des données
+
+*Inférence statistique* : Ensemble de techniques permettant d'induire les caractéristiques d'une groupe général (population) à partir des celles d'un groupe (échantillon) en fournissant une probabilité d'erreur. Méthode permettant de tirer des conclusions fiables à partir de données d'échantillons statistiques.
+
+*Théorème de Bayes* : Énonce des probabilités conditionnelles. Possible de comparer le nombre d'hypothèse que l'on veut.
+
