@@ -64,6 +64,9 @@ Note pour suivre évolution du stage de recherche
 - Utilsées avec des petits échantillons et ne nécessite pas nécessairement d'hypothèse, ce qui rend utile l'exploration des données
 
 *Inférence statistique* : Ensemble de techniques permettant d'induire les caractéristiques d'une groupe général (population) à partir des celles d'un groupe (échantillon) en fournissant une probabilité d'erreur. Méthode permettant de tirer des conclusions fiables à partir de données d'échantillons statistiques.
+*Théorème de Bayes* : Énonce des probabilités conditionnelles. Possible de comparer le nombre d'hypothèse que l'on veut. Pour chaque condition (hypothèse), une VVP est attribuée donnant la probabilité a posteriori des chaque condition.
+*Probabilité a priori* : Estimation de la probabilité d'avoir A avant le test B par les connaissances antérieures. Connaissances avant la réalisation du test et en l'absence de d'autres informations sur les sujets
+*Probabilité a posteriori*: Probabilité d'avoir A sachant le résultat de B (VVP de A). Connaissance du résultat du test et donc après l'incorporation de l'information obtenu (résultat du test B)
+ *VVP* : Valeur prédictive positive = la probabilité d'avoir A lorsqu'on connait B. Cela combien l'info a priori et le résultat du test B. La VVP la plus élevée indique l'hypothèse la plus probable.
 
-*Théorème de Bayes* : Énonce des probabilités conditionnelles. Possible de comparer le nombre d'hypothèse que l'on veut.
-
+Les méthodes bayésiennes permettent d'introduire une probabilité a priori, ce qui permet de fournir des informations et une conclusion plus nuancée comparé aux méthodes classiques étant donné qu'elles tiennent compte des études antérieures et des avis d'expert. On combien les données observées lors de l'expérimentation ainsi que les données antérieures pour conclure.
