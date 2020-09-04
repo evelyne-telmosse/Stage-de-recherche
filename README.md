@@ -75,7 +75,7 @@ Note pour suivre évolution du stage de recherche
 
 Les méthodes bayésiennes permettent d'introduire une probabilité a priori, ce qui permet de fournir des informations et une conclusion plus nuancée comparé aux méthodes classiques étant donné qu'elles tiennent compte des études antérieures et des avis d'expert. On combien les données observées lors de l'expérimentation ainsi que les données antérieures pour conclure.
 
-####Semaine 2
+#### Semaine 2
 - Explorer les relations avec différentes variables dans le dossier choexo dans R
 - Lire Jeukendrup, thèse Jonathan et autres articles sur le sujet pour m'ouvrir de nouvelles idées de relation
 - Regarder formation R suggérés par Pierre (udemy)
