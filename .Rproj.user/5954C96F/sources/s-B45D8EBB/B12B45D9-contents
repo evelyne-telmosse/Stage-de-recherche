@@ -86,3 +86,13 @@ Absence de relation entre la masse de l'individu et l'oxydation de glucides à l
 - Les différences ohservées entre les individus dans l'oxydation des glucides sont probablement dûes à des limitations dans l'absorption du glucose, ce qui est totalement indépendant de la masse de l'individu.
 - Selon des études, l'oxydation des glucides est dépendante de la quantité de glucides présente dans la diète de l'individu, c'est-à-dire que ceux ayant une diète élevée en glucides ont plus de transporteurs intestinaux et donc peuvnet mieux absorber et oxyder le glucose.
 - Donc la différence ne dépend pas de la masse, mais de la capacité à absorber les glucides. Les recommandations doivent donc être faites en quantité absolue et non relatifs à chacun.
+
+#Exploration des données de la méta-analyse dans R
+- Réorganisation des données en éliminant certaines colonnes du tableau dans mon ficher csv
+- Première tentative d'exploration des données en faisant des graphiques pour représenter la relation entre le taux d'oxydation et la dose. Séparation de ces données selon les différentes années. Filtrer les années en ne gardant que les articles à partir de 2010. 
+
+#Formation R
+- Consulter d'autres formations sur R afin d'en apprendre plus sur les graphiques et sur l'organisation des données
+- Chercher quelques instructions sur des sites internets pour m'aider avec certaines fonctions.
+- À regarder: Formation R et Rmarkdown envoyé par Jonathan
+- 

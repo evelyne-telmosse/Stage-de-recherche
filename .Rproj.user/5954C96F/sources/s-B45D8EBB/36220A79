@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1599662190036.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "36220A79",
+    "lastKnownWriteTime" : 8246223293474941986,
+    "last_content_update" : 1599662190036,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5D031ABA",
+        "caption" : "choexo_new",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=choexo_new&cache_key=5D031ABA",
+        "displayedObservations" : 170,
+        "environment" : "",
+        "expression" : "choexo_new",
+        "object" : "choexo_new",
+        "preview" : 0,
+        "totalObservations" : 170,
+        "variables" : 25
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
