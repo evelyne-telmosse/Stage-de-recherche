@@ -81,18 +81,30 @@ Les méthodes bayésiennes permettent d'introduire une probabilité a priori, ce
 - Regarder formation R suggérés par Pierre (udemy)
 - Continuer familiarisation avec statistique bayesienne et méta-régression
 
-###Article Jeukendrup 2010
+### Article Jeukendrup 2010
 Absence de relation entre la masse de l'individu et l'oxydation de glucides à l'exercice
 - Les différences ohservées entre les individus dans l'oxydation des glucides sont probablement dûes à des limitations dans l'absorption du glucose, ce qui est totalement indépendant de la masse de l'individu.
 - Selon des études, l'oxydation des glucides est dépendante de la quantité de glucides présente dans la diète de l'individu, c'est-à-dire que ceux ayant une diète élevée en glucides ont plus de transporteurs intestinaux et donc peuvnet mieux absorber et oxyder le glucose.
 - Donc la différence ne dépend pas de la masse, mais de la capacité à absorber les glucides. Les recommandations doivent donc être faites en quantité absolue et non relatifs à chacun.
 
-#Exploration des données de la méta-analyse dans R
+### Exploration des données de la méta-analyse dans R
 - Réorganisation des données en éliminant certaines colonnes du tableau dans mon ficher csv
 - Première tentative d'exploration des données en faisant des graphiques pour représenter la relation entre le taux d'oxydation et la dose. Séparation de ces données selon les différentes années. Filtrer les années en ne gardant que les articles à partir de 2010. 
 
-#Formation R
+## Relations entre les données
+- Relation entre taux d'oxydation et concentration : année en couleur
+- Relation entre taux d'oxydation et taux d'ingestion : masse des individus en couleur
+- Relation entre dose en gramme, la masse des individus et le taux d'oxydation
+ - Création de graphique pour voir la corrélation. Graphique exporté. 
+
+### Formation R
 - Consulter d'autres formations sur R afin d'en apprendre plus sur les graphiques et sur l'organisation des données
+ - Graphiques bar, boxplot, violin, histogram, col, smooth
+ - Combinaison de graphiques dans un seul HTML
+ - Mettre les intervalles d'erreur (sd et stderr) dans les graphiques avec geom_errorbar
+ - Thème classique en blanc
+ - Jouer avec les couleurs des échelles : scale_colour_gradient
+ - Voir tous les types d'échelle de couleur et choisir celle que je veux : installer le package RColorBrewer et la library. Ensuite, scale_colour_distiller
 - Chercher quelques instructions sur des sites internets pour m'aider avec certaines fonctions.
 - À regarder: Formation R et Rmarkdown envoyé par Jonathan
 - 
