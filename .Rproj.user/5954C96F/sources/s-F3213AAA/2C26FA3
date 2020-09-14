@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1599573518178.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3516061855",
+    "hash" : "0",
     "id" : "2C26FA3",
-    "lastKnownWriteTime" : 1599753573,
-    "last_content_update" : 1599753574070,
+    "lastKnownWriteTime" : 1599842233,
+    "last_content_update" : 1600087941942,
     "path" : "C:/evelyne/mes documents/université/stage de recherche/GitHub/Note-stage/Scripts/CHOexo.R",
     "project_path" : "Scripts/CHOexo.R",
     "properties" : {
-        "cursorPosition" : "114,0",
-        "scrollLine" : "97"
+        "cursorPosition" : "29,57",
+        "scrollLine" : "12"
     },
     "read_only" : false,
     "read_only_alternatives" : [

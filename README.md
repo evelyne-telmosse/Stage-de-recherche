@@ -81,11 +81,15 @@ Les méthodes bayésiennes permettent d'introduire une probabilité a priori, ce
 - Regarder formation R suggérés par Pierre (udemy)
 - Continuer familiarisation avec statistique bayesienne et méta-régression
 
-### Article Jeukendrup 2010
+### Article Jeukendrup 2010 et thèse Tremblay 2009
+#### Jeukendrup
 Absence de relation entre la masse de l'individu et l'oxydation de glucides à l'exercice
 - Les différences ohservées entre les individus dans l'oxydation des glucides sont probablement dûes à des limitations dans l'absorption du glucose, ce qui est totalement indépendant de la masse de l'individu.
 - Selon des études, l'oxydation des glucides est dépendante de la quantité de glucides présente dans la diète de l'individu, c'est-à-dire que ceux ayant une diète élevée en glucides ont plus de transporteurs intestinaux et donc peuvnet mieux absorber et oxyder le glucose.
 - Donc la différence ne dépend pas de la masse, mais de la capacité à absorber les glucides. Les recommandations doivent donc être faites en quantité absolue et non relatifs à chacun.
+####Tremblay
+Corrélation entre le taux d'oxydation et la masse de l'individu
+- La contribution de l'oxydation du glucose à la fourniture d'énergie serait un mode d'ingestion plus adapté afin de comparer la taux d'oxydation des individus à l'exercice. Calculer le taux d'ingestion de glucose en fonction de la dépense énergétique
 
 ### Exploration des données de la méta-analyse dans R
 - Réorganisation des données en éliminant certaines colonnes du tableau dans mon ficher csv

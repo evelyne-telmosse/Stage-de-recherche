@@ -22,19 +22,26 @@ write_csv(typeform_en, "metachoexo.csv")
 
 choexo <- read.csv("metachoexo.csv")
 
+write.csv(choexo_new, "choexo_clean.csv")
+
 #Réorganisation des données
-choexo_new <- select(choexo, ID, author, ref, year, design, oxi_rate_mean, oxi_rate_sd, n, sex, age, mass, timing, nutr_state, dose_g, dur_exerc, ing_rate, dose_g_kg, dose_pDE, dur_observ, VO2max, VO2_exerc, VO2_spec, pVO2max, DE_kcal, concentration) %>%
-  arrange(desc(dose_g))
+choexo_new <- choexo %>% 
+  select(ID:year, design:pEn_sd) %>%
+  mutate(VO2_exerc=str_extract(VO2_exerc,"[0-9].[0-9]+"))
+  
 
 
 #Exploration des relations entre les données------
 # Taux d'oxydation vs dose en grammes
-
+library("ggrepel")
+  
+  
 choexo_new %>%
-  na.omit() %>%
-  filter(year %in% c("2010","2011","2012","2013","2014","2015", "2016","2017", "2018","2019","2020")) %>%
-  ggplot(aes(x=oxi_rate_mean, y=dose_g, color=year)) +
-  geom_jitter()
+  filter(year %in% 2010:2020) %>%
+  ggplot(aes(x=oxi_rate_mean, y=dose_g,label=author), color=year) +
+  geom_point() +
+    geom_smooth(method = lm) +
+  geom_text_repel()
 
 #plus la dose est élevée, plus le taux d'oxydation est élevé
 choexo_new %>%
@@ -57,13 +64,29 @@ choexo_new %>%
   ggplot(aes(x=oxi_rate_mean, y=concentration, color=year)) +
   geom_violin() +
   geom_point()
- 
+
+#Taux d'oxydation selon la concentration (graphique linéaire avec équation, R et p) 
 choexo_new %>%
   na.omit() %>%
   filter(year %in% c("2010","2011","2012","2013","2014","2015", "2016","2017", "2018","2019","2020"),
          concentration < 200) %>%
   ggplot(aes(x=oxi_rate_mean, y=concentration, color=year)) +
-  geom_boxplot()
+  geom_point() +
+  geom_smooth(method = "lm") +
+  stat_regline_equation() +
+  stat_cor(label.y = 150) +
+  theme_cowplot()
+  
+
+choexo_new %>%
+  select_if(.,is.numeric) %>%
+  cor(use = "pairwise.complete.obs") %>%
+  corrplot()
+
+
+library(ggpubr)
+library(cowplot)
+library(corrplot)
 
 choexo_new %>%
   na.omit() %>%
@@ -77,7 +100,7 @@ choexo_new %>%
   na.omit() %>%
   filter(year %in% c("2010","2011","2012","2013","2014","2015", "2016","2017", "2018","2019","2020"),
          concentration < 200) %>%
-  ggplot(aes(x=oxi_rate_mean, y=ing_rate, color=mass)) +
+  ggplot(aes(x=oxi_rate_mean, y=ing_rate, size=mass)) +
   geom_point()
 
 #Taux d'oxydation selon la masse et la dose en gramme
