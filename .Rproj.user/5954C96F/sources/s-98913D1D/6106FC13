@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1601656698381.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6106FC13",
+    "lastKnownWriteTime" : 7960512999392330543,
+    "last_content_update" : 1601656698381,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B550DFF2",
+        "caption" : "choexo_clean.train1",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=choexo_clean.train1&cache_key=B550DFF2",
+        "displayedObservations" : 133,
+        "environment" : "",
+        "expression" : "choexo_clean.train1",
+        "object" : "choexo_clean.train1",
+        "preview" : 0,
+        "totalObservations" : 133,
+        "variables" : 30
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

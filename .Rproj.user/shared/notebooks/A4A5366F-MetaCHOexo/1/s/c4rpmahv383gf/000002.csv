@@ -1,0 +1,133 @@
+"0","library(gapminder)
+library(usdm)
+"
+"2","Le chargement a nécessité le package : sp
+"
+"2","Le chargement a nécessité le package : raster
+"
+"0","library(texreg)"
+"2","Version:  1.37.5
+Date:     2020-06-17
+Author:   Philip Leifeld (University of Essex)
+
+Consider submitting praise using the praise or praise_interactive functions.
+Please cite the JSS article in your publications -- see citation(""texreg"").
+"
+"2","
+Attachement du package : ‘texreg’
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    extract
+
+"
+"0","library(MPV)"
+"2","Le chargement a nécessité le package : KernSmooth
+"
+"2","KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+"
+"0","install.packages(""MASS"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","install.packages(""ipred"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","install.packages(""MASS"")"
+"2","Installing package into ‘C:/Users/èvelynee/Documents/R/win-library/4.0’
+(as ‘lib’ is unspecified)
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/MASS_7.3-53.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1190602 bytes (1.1 MB)
+"
+"2","downloaded 1.1 MB
+
+"
+"1","package â€˜MASSâ€™ successfully unpacked and MD5 sums checked
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","cannot remove prior installation of package â€˜MASSâ€™"
+"1",""
+"1","
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","problÃ¨me lors de la copie de C:\Users\Ã¨velynee\Documents\R\win-library\4.0\00LOCK\MASS\libs\x64\MASS.dll vers C:\Users\Ã¨velynee\Documents\R\win-library\4.0\MASS\libs\x64\MASS.dll: Permission denied"
+"1",""
+"1","
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","restored â€˜MASSâ€™"
+"1",""
+"1","
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\Ã¨velynee\AppData\Local\Temp\Rtmpe07krr\downloaded_packages"
+"1",""
+"1","
+"
+"0","install.packages(""ipred"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","library(MASS)"
+"2","
+Attachement du package : ‘MASS’
+
+"
+"2","The following object is masked from ‘package:MPV’:
+
+    cement
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    area, select
+
+"

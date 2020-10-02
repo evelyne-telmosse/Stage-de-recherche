@@ -1,0 +1,14 @@
+"0","choexo_new %>%
+  select_if(.,is.numeric) %>%
+  cor(use = ""pairwise.complete.obs"") %>%
+  corrplot()
+"
+"2","
+"
+"2","
+"
+"2","impossible d'ouvrir le fichier 'C:/evelyne/mes documents/universitÈ/stage de recherche/GitHub/Note-stage/.Rproj.user/shared/notebooks/A4A5366F-MetaCHOexo/1/5954C96FF3213AAA/cf0uu5tklq7qi_t/_rs_chunk_plot_001.png' pour Ècriture"
+"2","opening device failed"
+"2","Error in (function (filename = ""Rplot%03d.png"", width = 480, height = 480,  : 
+  impossible de d√©marrer le p√©riph√©rique png()
+"

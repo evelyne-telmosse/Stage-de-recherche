@@ -1,0 +1,17 @@
+"0","pacman::p_load(googlesheets,gsheet,csv,tidyverse,here,RColorBrewer,cowplot,ggrepel,ggpubr,corrplot,caTools,caret, car, broom, ggplot2, dplyr, rsample, parsnip, recipes, yardstick, ranger, skimr,leaps, styler, earth, vip, dpd, pls, relaimpo, hier.part, usdm)
+"
+"2","Installing package into ‘C:/Users/èvelynee/Documents/R/win-library/4.0’
+(as ‘lib’ is unspecified)
+"
+"2","package ‘dpd’ is not available (for R version 4.0.2)"
+"2","cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.0/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.0/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.0/PACKAGES': HTTP status was '404 Not Found'"
+"2","unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.0:
+  impossible d'ouvrir l'URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.0/PACKAGES'"
+"2","'BiocManager' not available.  Could not check Bioconductor.
+
+Please use `install.packages('BiocManager')` and then retry."
+"2","there is no package called ‘dpd’"
+"2","Failed to install/load:
+dpd"
